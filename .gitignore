@@ -9,6 +9,22 @@ bin
 logs
 vendor
 
+# PhpStorm
+##########
+.idea
+
+# Visual Studio Code
+####################
+.vscode
+
+# Windows thumbnails cache
+##########################
+Thumbs.db
+
+# MacOS cache
+#############
+.DS_Store
+
 ########################
 # General ignore rules #
 ########################
