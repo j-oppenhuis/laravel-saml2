@@ -2,7 +2,7 @@
     "name": "j-oppenhuis/laravel-saml2",
     "description": "SAML support to make a laravel application to both a SAML IDP and a SAML SP.",
     "keywords": ["laravel", "saml", "illuminate", "auth", "acl", "login", "sso", "idp", "sp"],
-    "version": "2.0.3",
+    "version": "2.1.0",
     "license": "MIT",
     "authors": [
         {
