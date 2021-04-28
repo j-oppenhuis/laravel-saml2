@@ -3,10 +3,7 @@
 namespace Pkeogan\LaravelSaml\Console;
 
 use App\Http\Middleware\SamlAuth;
-use function GuzzleHttp\Psr7\str;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Storage;
 use neilherbertuk\modules\Traits\MakeController;
 use neilherbertuk\modules\Traits\MakeModule;

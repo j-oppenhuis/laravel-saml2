@@ -5,8 +5,6 @@ namespace Pkeogan\LaravelSaml;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Config;
-use Illuminate\Support\Facades\View;
-use Pkeogan\LaravelSaml\Console\EncodeAssertionUrlCommand;
 use Pkeogan\LaravelSaml\Console\SamlSetupCommand;
 
 class LaravelSamlServiceProvider extends ServiceProvider

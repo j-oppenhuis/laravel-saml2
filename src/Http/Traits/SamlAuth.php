@@ -5,15 +5,12 @@ namespace Pkeogan\LaravelSaml\Http\Traits;
 use LightSaml\Credential\KeyHelper;
 use Storage;
 use Illuminate\Http\Request;
-use LightSaml\Model\Protocol\Response as Response;
 use LightSaml\Credential\X509Certificate;
 use LightSaml\Meta\TrustOptions\TrustOptions;
-use LightSaml\Validator\Model\Statement\StatementValidator;
 use Illuminate\Support\Facades\Auth;
 // For debug purposes, include the Log facade
 use Illuminate\Support\Facades\Log;
 use RobRichards\XMLSecLibs\XMLSecurityKey;
-use RobRichards\XMLSecLibs\XMLSecurityDSig;
 
 
 trait SamlAuth

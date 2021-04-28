@@ -2,7 +2,7 @@
 
 namespace Pkeogan\LaravelSaml\Http\Controllers;
 
-use Illuminate\Routing\Controller as Controller;
+use Illuminate\Routing\Controller;
 use Storage;
 use Pkeogan\LaravelSaml\Http\Traits\SamlAuth;
 use Illuminate\Http\Request;

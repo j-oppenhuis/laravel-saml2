@@ -4,12 +4,8 @@
  * The laravel-saml package route configuration
  */
 
-Route::group([
-        'namespace' => "Pkeogan\LaravelSaml\Http\Controllers",
-	'middleware' => 'web'
-
-    ], function () {
-			Route::any('logout/all', 'SamlIdpController@logoutAll')->name('logout.all');
+Route::group(['namespace' => "Pkeogan\LaravelSaml\Http\Controllers", 'middleware' => 'web'], function () {
+        Route::any('logout/all', 'SamlIdpController@logoutAll')->name('logout.all');
 
 		Route::any('logout/saml', 'SamlIdpController@logout')->name('logout.saml');
 	    Route::get('/saml', 'SamlIdpController@post')->name('saml.post');
