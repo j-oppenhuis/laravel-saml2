@@ -1,13 +1,13 @@
-# Larvael + SAML2 Goodness
+# Laravel + SAML2 Goodness
 
-This repo was orginaly a fork of kingstarter/laravel-saml. It has since grown from that, and is now gives any laravel applcation the following abilites:
+This repo was originally a fork of kingstarter/laravel-saml. It has since grown from that, and is now gives any laravel application the following abilities:
 1 - Become a IDP
-2 - Generate certs for signing messages, signing assertions and encryppting attributes. These certs use data inputed from the config file
+2 - Generate certs for signing messages, signing assertions and encrypting attributes. These certs use data inputed from the config file
 3 - Configure attributes to be sent (From Config File)
 4 - Configure for each SP if the message and/or assertion should be signed
-5 - Provides the ability on the logout page to logout of any of the service provides via iframe
+5 - Provides the ability on the logout page to logout from any of the service provides via iframe
 
-This package makes it so easy to matinin and a IDP. Docs need a little work, if your willing to help let me know.
+This package makes it so easy to maintain and a IDP. Docs need a little work, if you are willing to help let me know.
 
 ## Installation
 
@@ -91,7 +91,7 @@ Within the saml.php config file the SAML Service Provider array needs to be fill
 ### Using the SAML package
 
 To use the SAML package, some files need to be modified. 
-Within your login view, problably ```resources/views/auth/login.blade.php``` add a SAMLRequest field beneath the CSRF field 
+Within your login view, probably ```resources/views/auth/login.blade.php``` add a SAMLRequest field beneath the CSRF field 
 (this is actually a good place for it):
 ```
     {{-- The hidden CSRF field for secure authentication --}}
