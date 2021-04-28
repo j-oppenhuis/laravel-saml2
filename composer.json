@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "^5.2|^6.0|^7.0|^8.0",
-        "lightsaml/lightsaml": "^1.4"
+        "lightsaml/lightsaml": "^2.1"
     },
     "autoload": {
         "psr-4": {
